@@ -131,29 +131,29 @@ FUTURE_ML_02
 
 1. Model Training (Python)
 
-Run churn-prediction-system.ipynb to:
+   - Run churn-prediction-system.ipynb to:
 
-Clean & preprocess data
+   - Clean & preprocess data
 
-Train models
+   - Train models
 
-Save outputs:
+   - Save outputs:
 
-customer_churn_model.pkl (trained Random Forest)
+     - customer_churn_model.pkl (trained Random Forest)
 
-encoders.pkl (label encoders)
+     - encoders.pkl (label encoders)
 
-model_results.csv (comparison of models)
+     - model_results.csv (comparison of models)
 
-feature_importance.csv
+     - feature_importance.csv
 
 2. Power BI Dashboard
 
-Open PowerBI Dashboard/Churn_Prediction_System.pbix in Power BI Desktop
+   - Open PowerBI Dashboard/Churn_Prediction_System.pbix in Power BI Desktop
 
-Refresh data connections to point to saved CSVs
+   - Refresh data connections to point to saved CSVs
 
-Python script in the dashboard will use .pkl files for new predictions
+   - Python script in the dashboard will use .pkl files for new predictions
 
 ---
 
