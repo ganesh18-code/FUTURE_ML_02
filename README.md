@@ -28,17 +28,12 @@ The final results and churn insights are visualized through Power BI.
 
 ## 🛠️ Tools & Libraries
 
-Python → Data preprocessing, ML model training, saving models
-
-Pandas, NumPy, Scikit-learn → Data wrangling, encoding, evaluation
-
-XGBoost → Gradient boosting classifier
-
-Imbalanced-learn (SMOTE) → Handling class imbalance
-
-Seaborn & Matplotlib → EDA and feature visualization
-
-Power BI → Dashboard for visualization, KPIs, and prediction interface
+- Python → Data preprocessing, ML model training, saving models
+- Pandas, NumPy, Scikit-learn → Data wrangling, encoding, evaluation
+- XGBoost → Gradient boosting classifier
+- Imbalanced-learn (SMOTE) → Handling class imbalance
+- Seaborn & Matplotlib → EDA and feature visualization
+- Power BI → Dashboard for visualization, KPIs, and prediction interface
 
 ---
 
@@ -48,29 +43,20 @@ We used the Telco Customer Churn dataset from Kaggle.
 
 Key Columns:
 
-customerID → Unique identifier
-
-gender → Male / Female
-
-SeniorCitizen → 1 (Yes), 0 (No)
-
-Partner, Dependents → Family-related attributes
-
-tenure → Number of months as customer
-
-PhoneService, InternetService, OnlineSecurity, etc. → Service usage
-
-Contract → Month-to-month / One year / Two year
-
-PaymentMethod → Billing type
-
-MonthlyCharges, TotalCharges → Billing amounts
-
-Churn → Target variable (Yes = churned, No = retained)
-
----
+- customerID → Unique identifier
+- gender → Male / Female
+- SeniorCitizen → 1 (Yes), 0 (No)
+- Partner, Dependents → Family-related attributes
+- tenure → Number of months as customer
+- PhoneService, InternetService, OnlineSecurity, etc. → Service usage
+- Contract → Month-to-month / One year / Two year
+- PaymentMethod → Billing type
+- MonthlyCharges, TotalCharges → Billing amounts
+- Churn → Target variable (Yes = churned, No = retained)
 
 📂 Dataset on Kaggle
+
+---
 
 ## 🤖 Models & Performance
 
@@ -97,17 +83,17 @@ We also saved encoders.pkl for consistent categorical encoding during new predic
 
 The dashboard highlights:
 
-KPI Cards → Total Customers, Churned Customers, Churn Rate
+- KPI Cards → Total Customers, Churned Customers, Churn Rate
 
-Pie Chart → Churn distribution
+- Pie Chart → Churn distribution
 
-Bar Charts → Churn by Contract, Churn by Internet Service, Churn by Payment Method
+- Bar Charts → Churn by Contract, Churn by Internet Service, Churn by Payment Method
 
-Feature Importance → Top drivers of churn (e.g., Contract type, Tenure, MonthlyCharges)
+- Feature Importance → Top drivers of churn (e.g., Contract type, Tenure, MonthlyCharges)
 
-Model Results Table → Accuracy comparison of Decision Tree, Random Forest, and XGBoost
+- Model Results Table → Accuracy comparison of Decision Tree, Random Forest, and XGBoost
 
-Dynamic Prediction Interface → User selects inputs (Gender, Contract, Tenure, MonthlyCharges, etc.) via slicers → Python model returns Prediction (Churn / No Churn) and Probability
+- Dynamic Prediction Interface → User selects inputs (Gender, Contract, Tenure, MonthlyCharges, etc.) via slicers → Python model returns Prediction (Churn / No Churn) and Probability
 
 📂 Dashboard file: PowerBI Dashboard/Churn_Prediction_System.pbix
 
