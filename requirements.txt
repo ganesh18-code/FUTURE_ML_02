@@ -1,0 +1,16 @@
+# Core Python packages
+numpy==1.26.4
+pandas==2.1.4
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.2.2
+xgboost==1.7.6
+imblearn==0.0
+imbalanced-learn==0.11.0
+
+# Model saving/loading
+pickle-mixin==1.0.2
