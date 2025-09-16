@@ -1,0 +1,4 @@
+Model,CV Accuracy
+Decision Tree,0.7869325997248968
+Random Forest,0.840302613480055
+XGBoost,0.8348005502063274
