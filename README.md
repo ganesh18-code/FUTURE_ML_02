@@ -22,7 +22,6 @@ The final results and churn insights are visualized through Power BI.
 - ✔ Saved trained model and encoders as .pkl for reuse
 - ✔ Feature importance analysis (Top 10 churn drivers)
 - ✔ Interactive Power BI dashboard with KPIs, churn insights, and prediction interface
-- ✔ Dynamic single-customer churn prediction using Python script in Power BI
 
 ---
 
@@ -62,10 +61,11 @@ Key Columns:
 
 We trained and evaluated multiple classifiers with 5-fold cross-validation after balancing classes using SMOTE.
 
-Model CV Accuracy
-Decision Tree 0.787
-Random Forest 0.840
-XGBoost 0.835
+Model CV Accuracy:
+
+- Decision Tree 0.787
+- Random Forest 0.840
+- XGBoost 0.835
 
 Final model chosen: Random Forest
 
@@ -92,8 +92,6 @@ The dashboard highlights:
 - Feature Importance → Top drivers of churn (e.g., Contract type, Tenure, MonthlyCharges)
 
 - Model Results Table → Accuracy comparison of Decision Tree, Random Forest, and XGBoost
-
-- Dynamic Prediction Interface → User selects inputs (Gender, Contract, Tenure, MonthlyCharges, etc.) via slicers → Python model returns Prediction (Churn / No Churn) and Probability
 
 📂 Dashboard file: PowerBI Dashboard/Churn_Prediction_System.pbix
 
@@ -145,15 +143,17 @@ FUTURE_ML_02
 
      - model_results.csv (comparison of models)
 
-     - feature_importance.csv
+     - feature_importance.csv (displays important features in the dataset)
+
+     - test_predictions.csv (actual & predicted values for each record)
+
+     - cleaned_telco_churn.csv (preprocessed & encoded data)
 
 2. Power BI Dashboard
 
    - Open PowerBI Dashboard/Churn_Prediction_System.pbix in Power BI Desktop
 
    - Refresh data connections to point to saved CSVs
-
-   - Python script in the dashboard will use .pkl files for new predictions
 
 ---
 
@@ -163,7 +163,7 @@ This project demonstrates how Machine Learning + Business Dashboards can work to
 
 Predict customer churn dynamically
 
-Identify key churn drivers (Contract type, Tenure, Monthly Charges)
+Identify key churn drivers ( Gender, Contract type, Tenure, Monthly Charges)
 
 Compare model performance
 
