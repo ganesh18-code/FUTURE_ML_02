@@ -15,14 +15,14 @@ The final results and churn insights are visualized through Power BI.
 
 ## 🔑 Key Features
 
-✔ Data cleaning and preprocessing of telecom churn dataset
-✔ Balanced dataset using SMOTE
-✔ Trained 3 ML models → Decision Tree, Random Forest, XGBoost
-✔ Cross-validation accuracy comparison across models
-✔ Saved trained model and encoders as .pkl for reuse
-✔ Feature importance analysis (Top 10 churn drivers)
-✔ Interactive Power BI dashboard with KPIs, churn insights, and prediction interface
-✔ Dynamic single-customer churn prediction using Python script in Power BI
+- ✔ Data cleaning and preprocessing of telecom churn dataset
+- ✔ Balanced dataset using SMOTE
+- ✔ Trained 3 ML models → Decision Tree, Random Forest, XGBoost
+- ✔ Cross-validation accuracy comparison across models
+- ✔ Saved trained model and encoders as .pkl for reuse
+- ✔ Feature importance analysis (Top 10 churn drivers)
+- ✔ Interactive Power BI dashboard with KPIs, churn insights, and prediction interface
+- ✔ Dynamic single-customer churn prediction using Python script in Power BI
 
 ---
 
